@@ -61,6 +61,8 @@ La méthode commune (branches, commits conventionnels, PR, revue) est décrite
 dans [`CONTRIBUTING.md`](https://github.com/born2tofound/.github/blob/main/CONTRIBUTING.md).
 Chaque dépôt ajoute ses commandes dans son `README.md`.
 
+Suivi du MVP : [Project 1 — Todo BTBF](https://github.com/orgs/born2tofound/projects/1).
+
 ## Sécurité
 
 Ne jamais ouvrir d'issue publique pour une vulnérabilité. Voir
