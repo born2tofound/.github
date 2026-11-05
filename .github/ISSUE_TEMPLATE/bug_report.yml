@@ -1,0 +1,47 @@
+name: Bug report
+description: Signaler un comportement reproductible
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de vérifier qu'une issue ne décrit pas déjà le problème.
+        Ne jamais inclure de secret, token ou donnée personnelle.
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexte
+      description: Ce qui était attendu, ce qui se passe réellement.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes de reproduction
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Preuve
+      description: Message d'erreur complet, logs, capture.
+  - type: input
+    id: environment
+    attributes:
+      label: Environnement
+      placeholder: "OS, navigateur, Node/Python, commit"
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - Bloquant
+        - Dégradation
+        - Cosmétique
+    validations:
+      required: true

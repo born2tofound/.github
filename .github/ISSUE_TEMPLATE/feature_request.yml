@@ -1,0 +1,31 @@
+name: Feature request
+description: Proposer une amélioration ou un nouveau comportement
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Besoin
+      description: Le problème ou l'usage, avant la solution technique.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposition
+      description: Comportement souhaité, alternatives envisagées.
+  - type: textarea
+    id: scope
+    attributes:
+      label: Périmètre
+      description: Dépôt(s) concerné(s), écrans, endpoints, données.
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Vérifications
+      options:
+        - label: Je n'inclus aucune donnée réelle ou secret.
+          required: true
+        - label: Le besoin est décrit avant la solution technique.
+          required: true
