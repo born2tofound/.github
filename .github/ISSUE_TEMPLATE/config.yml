@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Méthode de travail
+    url: https://github.com/born2tofound/.github/blob/main/CONTRIBUTING.md
+    about: Branches, commits conventionnels, PR et revue.
+  - name: Sécurité
+    url: https://github.com/born2tofound/.github/blob/main/SECURITY.md
+    about: Signaler une vulnérabilité en privé.
+  - name: Support
+    url: https://github.com/born2tofound/.github/blob/main/SUPPORT.md
+    about: Où poser une question.
