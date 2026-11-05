@@ -47,6 +47,14 @@ Next.js 16 ── HTTP ── FastAPI ── MongoDB
               Dokploy
 ```
 
+## Équipe
+
+| Rôle | GitHub |
+| --- | --- |
+| Chef de projet, architecture et revue | [@MalikIssiakhem](https://github.com/MalikIssiakhem) |
+| Front-end, i18n et déploiement | [@cleeryy](https://github.com/cleeryy) |
+| Contributeurs | [@hackerswa](https://github.com/hackerswa) · [@PigeonOccitan98](https://github.com/PigeonOccitan98) |
+
 ## Travailler ici
 
 La méthode commune (branches, commits conventionnels, PR, revue) est décrite
