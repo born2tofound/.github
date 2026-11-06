@@ -9,7 +9,7 @@ Threat Intelligence qui émet des alertes.
 
 [Projet annuel ESGI 2026](https://www.esgi.fr/) · Toulouse
 
-[**Démo live →**](https://btbf.cleeryy.cloud)
+[**Démo live →**](https://btbf.cleeryy.cloud) · [**Wiki →**](https://github.com/born2tofound/wiki/wiki)
 
 </div>
 
@@ -31,6 +31,7 @@ reliées aux investigations en cours.
 | [`btbf-front`](https://github.com/born2tofound/btbf-front) | Vitrine et console d'investigation | Next.js 16, TypeScript, Tailwind v4, shadcn/ui, beUI |
 | [`btbf-api`](https://github.com/born2tofound/btbf-api) | API, domaine et persistance | FastAPI, Python 3.13, MongoDB |
 | [`btbf-platform`](https://github.com/born2tofound/btbf-platform) | Orchestration : submodules, Compose, déploiement | Docker, GHCR, Dokploy |
+| [`wiki`](https://github.com/born2tofound/wiki/wiki) | Documentation vivante : architecture, API, front, déploiement, sécurité, contribution | GitHub Wiki |
 
 ## Principes
 
